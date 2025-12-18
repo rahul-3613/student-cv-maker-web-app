@@ -18,12 +18,14 @@ This is a modern, interactive **Student CV Maker** designed to help students cre
 
 ## ✨ Key Features 🌈
 
-* **⚡ Instant Preview:** See your changes in real-time as you type.
-* **📂 PDF Export:** One-click download to get your CV in high-quality PDF format.
-* **📱 Fully Responsive:** Works perfectly on Mobile, Tablet, and Desktop.
-* **🎨 Professional Templates:** Clean layouts designed to impress hiring managers.
-* **🌑 Dark Mode Support:** Easy on the eyes for late-night editing session.
-
+- 🎨 **Bright & Customizable UI**
+- ⚡ **Fast Performance** using React + Vite
+- 🔧 **Easy Configuration & Setup**
+- 🖥 **Responsive Design** for Web & Mobile
+- 📊 **Interactive Dashboards** & Analytics
+- 📝 **Form Handling** with Validation (React Hook Form + Zod)
+- 📄 **Export CV or Data** as PDF
+- 🌐 **Multi-page Navigation** with React Router
 ---
 
 ## 🛠️ Tech Stack 💻
