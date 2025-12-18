@@ -3,7 +3,6 @@ import { CVData } from '@/types/cv';
 interface TemplateProps {
   data: CVData;
 }   
-<a href="https://www.flaticon.com/free-icons/curriculum-vitae" title="curriculum vitae icons">Curriculum vitae icons created by kerismaker - Flaticon</a>
 
 export function AcademicTemplate({ data }: TemplateProps) {
   const { personalInfo, education, skills, projects, experience, certifications, languages, isFresher } = data;
