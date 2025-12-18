@@ -32,7 +32,10 @@ This is a modern, interactive **Student CV Maker** designed to help students cre
 ## 🖥️ Project Preview
 *First look at the CV Maker dashboard*
 
-![Website First Look](<img width="820" height="773" alt="Image" src="https://github.com/user-attachments/assets/c6b85f63-2d2f-48f8-9ad8-36e908987a77" />)
+![Website First Look]
+
+<img width="320" height="273" alt="Image" src="https://github.com/user-attachments/assets/c6b85f63-2d2f-48f8-9ad8-36e908987a77" />
+
 
 ---
 
@@ -42,23 +45,26 @@ We provide three distinct styles to match your professional needs:
 
 ### 1. Modern Template
 *Perfect for tech and creative roles.*
-![Modern Template](<img width="674" height="645" alt="Image" src="https://github.com/user-attachments/assets/2f33c005-6ed8-4888-81aa-a59870048cf8" />)
+
+<img width="274" height="345" alt="Image" src="https://github.com/user-attachments/assets/2f33c005-6ed8-4888-81aa-a59870048cf8" />
 
 ### 2. Minimal Template
 *Clean, simple, and elegant.*
-![Minimal Template](<img width="700" height="647" alt="Image" src="https://github.com/user-attachments/assets/268e40cb-ebeb-4f16-8535-683fb48b4ece" />)
+
+<img width="200" height="347" alt="Image" src="https://github.com/user-attachments/assets/268e40cb-ebeb-4f16-8535-683fb48b4ece" />
 
 ### 3. Academic Template
 *Designed for research and educational purposes.*
-![Academic Template](<img width="692" height="658" alt="Image" src="https://github.com/user-attachments/assets/23df2ab7-ebc8-4cd0-a6f1-f742ace43c3c" />)
+
+<img width="292" height="358" alt="Image" src="https://github.com/user-attachments/assets/23df2ab7-ebc8-4cd0-a6f1-f742ace43c3c" />
 
 ---
 
 ## 📥 Instant PDF Export
 *Download your CV as a high-quality PDF ready for applications!*
 
-![Download PDF Screenshot]    
-<img width="356" height="63" alt="Image" src="https://github.com/user-attachments/assets/044a5f3c-289d-494a-a366-0a01d0152fec" />
+  
+<img width="356" height="163" alt="Image" src="https://github.com/user-attachments/assets/044a5f3c-289d-494a-a366-0a01d0152fec" />
 
 ---
 ---
@@ -77,11 +83,7 @@ We provide three distinct styles to match your professional needs:
 ---
 📂 Project Architecture Flow 🏗️
 
-graph TD
-    %% Main Project Root
-    Root[📁 student-cv-maker-web-app] --> Public[📁 public]
-    Root --> Src[📁 src]
-    Root --> Config[⚙️ vite.config.ts]
+
 
     %% Public Folder
     Public --> Assets[🖼️ Static Images / Favicon]
