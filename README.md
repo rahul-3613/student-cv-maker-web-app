@@ -57,7 +57,8 @@ We provide three distinct styles to match your professional needs:
 ## 📥 Instant PDF Export
 *Download your CV as a high-quality PDF ready for applications!*
 
-![Download PDF Screenshot](./screenshots/pdf-download.png)
+![Download PDF Screenshot]    
+<img width="356" height="63" alt="Image" src="https://github.com/user-attachments/assets/044a5f3c-289d-494a-a366-0a01d0152fec" />
 
 ---
 ---
