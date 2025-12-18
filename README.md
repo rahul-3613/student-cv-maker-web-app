@@ -26,6 +26,40 @@ This is a modern, interactive **Student CV Maker** designed to help students cre
 - 📝 **Form Handling** with Validation (React Hook Form + Zod)
 - 📄 **Export CV or Data** as PDF
 - 🌐 **Multi-page Navigation** with React Router
+
+---
+
+## 🖥️ Project Preview
+*First look at the CV Maker dashboard*
+
+![Website First Look](<img width="820" height="773" alt="Image" src="https://github.com/user-attachments/assets/c6b85f63-2d2f-48f8-9ad8-36e908987a77" />)
+
+---
+
+## 🎨 CV Templates 🌈
+
+We provide three distinct styles to match your professional needs:
+
+### 1. Modern Template
+*Perfect for tech and creative roles.*
+![Modern Template](<img width="674" height="645" alt="Image" src="https://github.com/user-attachments/assets/2f33c005-6ed8-4888-81aa-a59870048cf8" />)
+
+### 2. Minimal Template
+*Clean, simple, and elegant.*
+![Minimal Template](<img width="700" height="647" alt="Image" src="https://github.com/user-attachments/assets/268e40cb-ebeb-4f16-8535-683fb48b4ece" />)
+
+### 3. Academic Template
+*Designed for research and educational purposes.*
+![Academic Template](<img width="692" height="658" alt="Image" src="https://github.com/user-attachments/assets/23df2ab7-ebc8-4cd0-a6f1-f742ace43c3c" />)
+
+---
+
+## 📥 Instant PDF Export
+*Download your CV as a high-quality PDF ready for applications!*
+
+![Download PDF Screenshot](./screenshots/pdf-download.png)
+
+---
 ---
 
 ## 🛠️ Tech Stack 💻
@@ -40,18 +74,39 @@ This is a modern, interactive **Student CV Maker** designed to help students cre
 | **jsPDF** | Converting HTML designs to PDF files |
 
 ---
+📂 Project Architecture Flow 🏗️
 
-## 🚀 Quick Start (Local Setup) ⚙️
+graph TD
+    %% Main Project Root
+    Root[📁 student-cv-maker-web-app] --> Public[📁 public]
+    Root --> Src[📁 src]
+    Root --> Config[⚙️ vite.config.ts]
 
-Follow these steps to run the project on your machine:
+    %% Public Folder
+    Public --> Assets[🖼️ Static Images / Favicon]
 
-1️⃣ **Clone the Repo:**
-```bash
-git clone [https://github.com/rahul-3613/student-cv-maker-web-app.git](https://github.com/rahul-3613/student-cv-maker-web-app.git)
+    %% Src Folder Logic
+    Src --> App[📱 App.tsx - Routing]
+    Src --> Main[🚀 main.tsx - Entry]
+    Src --> Pages[📁 pages]
+    Src --> Components[📁 components]
+    Src --> Lib[📁 lib - Utils]
 
-# Install dependencies
-npm install
+    %% Pages Branch
+    Pages --> P1[📄 Index.tsx]
+    Pages --> P2[📄 Builder.tsx]
+    Pages --> P3[📄 NotFound.tsx]
 
-# Run development server
-npm run dev
+    %% Components Branch
+    Components --> C1[📁 builder - Form & Preview]
+    Components --> C2[📁 home - Landing UI]
+    Components --> C3[📁 ui - Shadcn Base]
+
+    %% Styling
+    style Root fill:#f96,stroke:#333,stroke-width:2px
+    style Src fill:#646CFF,stroke:#fff,color:#fff
+    style Pages fill:#38B2AC,stroke:#fff,color:#fff
+    style Components fill:#38B2AC,stroke:#fff,color:#fff
+    style App fill:#f9f,stroke:#333
+
 
