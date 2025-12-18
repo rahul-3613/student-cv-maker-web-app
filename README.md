@@ -85,31 +85,32 @@ We provide three distinct styles to match your professional needs:
 
 
 
-    %% Public Folder
+    Public Folder;
+    
     Public --> Assets[🖼️ Static Images / Favicon]
 
-    %% Src Folder Logic
+    Src Folder Logic
     Src --> App[📱 App.tsx - Routing]
     Src --> Main[🚀 main.tsx - Entry]
     Src --> Pages[📁 pages]
     Src --> Components[📁 components]
     Src --> Lib[📁 lib - Utils]
 
-    %% Pages Branch
+    Pages Branch
     Pages --> P1[📄 Index.tsx]
     Pages --> P2[📄 Builder.tsx]
     Pages --> P3[📄 NotFound.tsx]
 
-    %% Components Branch
+    Components Branch
     Components --> C1[📁 builder - Form & Preview]
     Components --> C2[📁 home - Landing UI]
     Components --> C3[📁 ui - Shadcn Base]
+    ---
 
-    %% Styling
-    style Root fill:#f96,stroke:#333,stroke-width:2px
-    style Src fill:#646CFF,stroke:#fff,color:#fff
-    style Pages fill:#38B2AC,stroke:#fff,color:#fff
-    style Components fill:#38B2AC,stroke:#fff,color:#fff
-    style App fill:#f9f,stroke:#333
 
+  Contact:
+
+✉️ Email: rahulshingha@gmail.com
+
+  
 
